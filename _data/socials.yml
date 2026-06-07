@@ -3,9 +3,9 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 
 # Active social icons. Uncomment / fill in a line to show that icon.
-linkedin_username: nicholas-roy1 # the part after linkedin.com/in/
-github_username: nicholasjroy # your GitHub username
 # email: you@example.com # your email address
+github_username: nicholasjroy # your GitHub username
+linkedin_username: nicholas-roy1 # the part after linkedin.com/in/
 
 # --- Hidden for now; uncomment a line to bring an icon back ---
 # cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
