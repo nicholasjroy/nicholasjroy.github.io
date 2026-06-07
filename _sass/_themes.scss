@@ -127,3 +127,15 @@ footer.fixed-bottom,
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
 }
+
+// Slightly more compact blog post list
+.post-list li {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.post-list li h3 {
+  margin-bottom: 0.2rem;
+}
+.post-list li p {
+  margin-bottom: 0.25rem;
+}
