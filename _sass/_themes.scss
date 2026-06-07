@@ -128,10 +128,12 @@ footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
 }
 
-// Bold full name
+// Unbold full name
 .post-header .post-title,
-.navbar-brand.title {
-  font-weight: bold;
+.navbar-brand.title,
+.post-header .post-title .font-weight-bold,
+.navbar-brand.title .font-weight-bold {
+  font-weight: normal;
 }
 
 // Compact blog post list
