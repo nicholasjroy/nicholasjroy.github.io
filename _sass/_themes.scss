@@ -107,33 +107,22 @@ html[data-theme-setting="light"] #light-toggle-light {
   width: 1em;
   height: 1em;
 }
-.fa-half-sun-moon::before,
-.fa-half-sun-moon::after {
-  content: "";
+.fa-half-sun-moon::before {
+  content: "\f042"; // FontAwesome circle-half-stroke (auto/system)
   position: absolute;
   inset: 0;
-  top: -0.5px;
-  bottom: -0.5px;
   text-align: center;
   line-height: 1em;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   font: var(--fa-font);
-}
-.fa-half-sun-moon::before {
-  content: "\f185"; // FontAwesome sun (left half)
   color: var(--global-text-color);
-  clip-path: polygon(0 0, calc(50% - 0.5px) 0, calc(50% - 0.5px) 100%, 0 100%);
 }
 .fa-half-sun-moon::after {
-  content: "\f186"; // FontAwesome moon (right half)
-  color: var(--global-text-color);
-  clip-path: polygon(calc(50% + 0.5px) 0, 100% 0, 100% 100%, calc(50% + 0.5px) 100%);
-  right: -1.5px;
-  transform: translateX(-1px);
+  content: none;
 }
 #light-toggle:hover .fa-half-sun-moon::before {
   color: var(--global-theme-color);
 }
-#light-toggle:hover .fa-half-sun-moon::after {
-  color: var(--global-theme-color);
+
+footer.fixed-bottom {
+  border-top: 1px solid var(--global-divider-color);
 }
