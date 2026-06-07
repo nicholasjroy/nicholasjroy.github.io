@@ -139,6 +139,9 @@ body footer.sticky-bottom.mt-5 {
 .navbar-brand.title .font-weight-bold {
   font-weight: normal;
 }
+.post-header .post-title {
+  font-size: 2.25rem;
+}
 
 // Compact blog post list
 .container.mt-5:has(.post-list) {
