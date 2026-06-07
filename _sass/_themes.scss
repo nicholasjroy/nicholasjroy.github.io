@@ -123,6 +123,7 @@ html[data-theme-setting="light"] #light-toggle-light {
   color: var(--global-theme-color);
 }
 
-footer.fixed-bottom {
+footer.fixed-bottom,
+footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
 }
