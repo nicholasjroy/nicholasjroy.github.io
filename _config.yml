@@ -233,6 +233,17 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  # Default starter pages hidden from the site (removed from build, sitemap, and
+  # search index). Delete a line below to restore that page.
+  - _pages/publications.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/cv.md
+  - _pages/teaching.md
+  - _pages/profiles.md
+  - _pages/news.md
+  - _pages/plugins.md
+  - _pages/books.md
   - purgecss.config.js
   - README.md
   - readme_preview/
