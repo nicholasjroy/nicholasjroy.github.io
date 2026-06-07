@@ -126,6 +126,10 @@ html[data-theme-setting="light"] #light-toggle-light {
 footer.fixed-bottom,
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
+  padding-block: 1.25rem;
+}
+footer.sticky-bottom.mt-5 {
+  margin-top: 2rem !important;
 }
 
 // Unbold full name
@@ -137,13 +141,9 @@ footer.sticky-bottom {
 }
 
 // Compact blog post list
+.container.mt-5:has(.post-list) {
+  margin-top: 2rem !important;
+}
 .post-list li {
-  padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-.post-list li h3 {
-  margin-bottom: 0.2rem;
-}
-.post-list li p {
-  margin-bottom: 0.25rem;
 }
