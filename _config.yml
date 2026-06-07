@@ -185,15 +185,7 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
-  news:
-    defaults:
-      layout: post
-    output: true
   projects:
-    output: true
-  teachings:
     output: true
 
 # -----------------------------------------------------------------------------
@@ -239,11 +231,8 @@ exclude:
   - _pages/projects.md
   - _pages/repositories.md
   - _pages/cv.md
-  - _pages/teaching.md
   - _pages/profiles.md
-  - _pages/news.md
   - _pages/plugins.md
-  - _pages/books.md
   - purgecss.config.js
   - README.md
   - readme_preview/
