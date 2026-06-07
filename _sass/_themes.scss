@@ -1,0 +1,11 @@
+// Gem theme override
+
+:root {
+  --global-theme-color: #2798ba;
+  --global-hover-color: #2798ba;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #2798ba;
+  --global-hover-color: #2798ba;
+}
