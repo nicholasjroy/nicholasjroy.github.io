@@ -123,12 +123,12 @@ html[data-theme-setting="light"] #light-toggle-light {
   color: var(--global-theme-color);
 }
 
-footer.fixed-bottom,
-footer.sticky-bottom {
+body footer.fixed-bottom,
+body footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-block: 1.25rem;
 }
-footer.sticky-bottom.mt-5 {
+body footer.sticky-bottom.mt-5 {
   margin-top: 2rem !important;
 }
 
@@ -144,6 +144,6 @@ footer.sticky-bottom.mt-5 {
 .container.mt-5:has(.post-list) {
   margin-top: 2rem !important;
 }
-.post-list li {
+body .post-list li {
   padding-bottom: 1.25rem;
 }
