@@ -37,9 +37,11 @@ latest_posts:
   }
 </style>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id justo vitae mi volutpat aliquam non quis lectus. Nunc porta eget mauris quis mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque quis dapibus neque.
+Hi there! Welcome to my blog. I currently work as a graduate Data Scientist in competition consulting (views my own), but wanted a space to share my thoughts on various areas of machine learning research.
 
-Integer facilisis sit amet mi non pellentesque. Integer ut sapien ac arcu dapibus imperdiet. Curabitur rhoncus metus eget erat commodo dictum. Donec non dapibus mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla vulputate facilisis placerat. Mauris augue massa, tristique ut nisl at, accumsan posuere purus. Vivamus a metus non arcu mollis tempor sed sit amet nisl.
+During my MSc in Statistical Science at Oxford, I became drawn to the question of *how an agent can improve its imperfect model of the world to make more robust decisions*. Lately, I've been approaching this from the perspective of model-based reinforcement learning and representation learning, as well as recent advancements in video generation and robotics.
+
+My aim in these posts is to take a closer look at a few papers or synthesize literature surrounding an evolving line of research, focusing on the intuition behind *why* something works rather than only the equations describing *how*. I hope this will not only commit me to thinking through the concepts more carefully than reading passively, but also offer others a springboard for exploring related ideas.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
