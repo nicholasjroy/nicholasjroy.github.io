@@ -156,3 +156,10 @@ body .post-list li:first-child {
 body .post-list li:last-child {
   border-bottom: none;
 }
+
+// Flat TOC sidebar
+.sticky-top nav#toc-sidebar,
+nav#toc-sidebar {
+  max-height: none;
+  overflow-y: visible;
+}
