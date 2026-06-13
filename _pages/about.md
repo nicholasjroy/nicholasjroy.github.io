@@ -28,12 +28,18 @@ latest_posts:
 ---
 
 <style>
-  /* Shrink profile photo */
+  /* Re-size profile pic on desktop and mobile */
   .profile img {
-    width: 75%;
+    width: 90%;
     height: auto;
     display: block;
     margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    .profile img {
+      width: 75%;
+    }
   }
 </style>
 
