@@ -27,6 +27,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+  /* Shrink profile photo */
+  .profile img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id justo vitae mi volutpat aliquam non quis lectus. Nunc porta eget mauris quis mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque quis dapibus neque.
 
 Integer facilisis sit amet mi non pellentesque. Integer ut sapien ac arcu dapibus imperdiet. Curabitur rhoncus metus eget erat commodo dictum. Donec non dapibus mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla vulputate facilisis placerat. Mauris augue massa, tristique ut nisl at, accumsan posuere purus. Vivamus a metus non arcu mollis tempor sed sit amet nisl.
