@@ -27,10 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<!-- <style>
+<style>
   /* Re-size profile pic on desktop and mobile */
   .profile img {
-    width: 90%;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -38,10 +38,10 @@ latest_posts:
 
   @media (max-width: 768px) {
     .profile img {
-      width: 75%;
+      width: 80%;
     }
   }
-</style> -->
+</style>
 
 Hi there! Welcome to my blog. I currently work as a graduate Data Scientist in competition consulting (views my own), but wanted a space to share my thoughts on various areas of machine learning research.
 
