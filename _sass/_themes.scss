@@ -163,3 +163,8 @@ nav#toc-sidebar {
   max-height: none;
   overflow-y: visible;
 }
+
+// Hide vertical scrollbar for equations
+mjx-container[display="true"] {
+  overflow-y: hidden;
+}
