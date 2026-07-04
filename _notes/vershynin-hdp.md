@@ -9,6 +9,12 @@ chart:
   echarts: true
 ---
 
+<style>
+  .echarts {
+    height: 500px;
+  }
+</style>
+
 Vershynin, R. (2026). _High-dimensional probability: An introduction with applications in data science_ (2nd ed.). Cambridge University Press. [https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf)
 
 ```echarts
@@ -18,8 +24,8 @@ Vershynin, R. (2026). _High-dimensional probability: An introduction with applic
       "type": "graph",
       "layout": "force",
       "roam": true,
-      "zoom": 0.40,
-      "scaleLimit": { "min": 0.3, "max": 3 },
+      "zoom": 0.30,
+      "scaleLimit": { "min": 0.2, "max": 3 },
       "draggable": true,
       "symbolSize": 16,
       "itemStyle": {
