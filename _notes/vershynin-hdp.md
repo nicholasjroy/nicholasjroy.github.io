@@ -41,7 +41,7 @@ Vershynin, R. (2026). _High-dimensional probability: An introduction with applic
       "edgeSymbol": ["none", "arrow"],
       "force": {
         "repulsion": 5000,
-        "edgeLength": 315,
+        "edgeLength": 275,
         "gravity": 0.02
       },
       "emphasis": {
