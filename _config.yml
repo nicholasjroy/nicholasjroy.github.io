@@ -124,7 +124,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: al-folio # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+permalink: /blog/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
@@ -173,6 +173,11 @@ newsletter:
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:title/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -313,6 +318,11 @@ jekyll-archives:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
+  notes:
+    enabled: [year, tags]
+    permalinks:
+      year: "/notes/:year/"
+      tags: "/notes/:type/:name/"
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
