@@ -43,11 +43,11 @@ latest_posts:
   }
 </style>
 
-Hi there! Welcome to my blog. I currently work as a graduate Data Scientist in competition consulting (views my own), but wanted a space to share my thoughts on various areas of machine learning research.
+Hi, welcome to my blog! I currently work as a graduate Data Scientist in competition consulting (views my own), but wanted a space to share my thoughts on machine learning research.
 
-During my MSc in Statistical Science at Oxford, I became drawn to the question of *how an agent can improve its imperfect model of the world to make more robust decisions*. Lately, I've been approaching this through model-based reinforcement learning and representation learning, as well as recent work in video generation and robotics.
+During my MSc in Statistical Science at Oxford, I was drawn to the question of *how an agent can improve its imperfect model of the world to make more robust decisions*. Lately, I've been approaching this through model-based reinforcement learning and representation learning, as well as recent advancements in video generation and robotics.
 
-My aim in these posts is to take a closer look at papers in an evolving line of research, focusing on the intuition behind *why* something works rather than just the equations describing *how*. I hope this will not only commit me to thinking through the concepts more carefully, but also offer others a springboard for exploring related ideas.
+My aim in these posts is to take a closer look at papers in an evolving line of research, focusing on the intuition for *why* something works rather than just the equations describing *how*. I hope this will not only push me to think through the concepts more carefully, but also offer others a springboard for exploring related ideas.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
