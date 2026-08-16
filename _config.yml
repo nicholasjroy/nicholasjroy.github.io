@@ -176,7 +176,7 @@ newsletter:
 
 collections:
   notes:
-    output: true
+    output: false
     permalink: /notes/:title/
 
 # -----------------------------------------------------------------------------
@@ -318,11 +318,11 @@ jekyll-archives:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
-  notes:
-    enabled: [year, tags]
-    permalinks:
-      year: "/notes/:year/"
-      tags: "/notes/:type/:name/"
+  # notes:
+  #   enabled: [year, tags]
+  #   permalinks:
+  #     year: "/notes/:year/"
+  #     tags: "/notes/:type/:name/"
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog

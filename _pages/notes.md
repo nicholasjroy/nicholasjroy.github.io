@@ -5,6 +5,7 @@ title: notes
 description: Living notes on textbooks and courses.
 nav: true
 nav_order: 3
+published: false
 ---
 
 <div class="post">
