@@ -156,6 +156,13 @@ body .post-list li:first-child {
 body .post-list li:last-child {
   border-bottom: none;
 }
+body .post-list li h3 {
+  font-size: 1.5rem; // default 1.75rem
+  margin-bottom: 0.65rem; // default 0.5rem
+}
+body .post-list li h3 + p {
+  margin-bottom: 0.75rem; // default 1rem (gap to the read-time/date line)
+}
 
 // Flat TOC sidebar
 .sticky-top nav#toc-sidebar,
