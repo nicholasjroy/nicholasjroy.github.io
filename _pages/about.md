@@ -43,11 +43,11 @@ latest_posts:
   }
 </style>
 
-I work as a graduate data scientist in economic consulting (views my own), but started this blog to share my thoughts on various topics in machine learning research.
+Hi there! I work as a graduate data scientist in economic consulting (views my own), but started this blog to share my thoughts on various topics in machine learning research.
 
-During my MSc in Statistical Science at Oxford, I became interested in *how an agent can improve its own model of the world*. I initially approached this through misspecification in Bayesian experimental design (BED), but have increasingly turned to model-based reinforcement learning (MBRL).
+During my MSc in Statistical Science at Oxford, I became interested in *how an agent can improve its own model of the world*. I initially approached this through misspecification in Bayesian experimental design, but have increasingly turned to model-based reinforcement learning and world models.
 
-My aim in these posts is to explain concepts I come across in my own research, focusing on the intuition for *why* something works rather than just the equations describing *how*. I hope this will not only push me to think through them more carefully, but also be useful to others exploring related ideas.
+My aim in these posts is to explain concepts I come across in my research, focusing more on intuition than mathematical completeness. I hope this will be useful to others exploring related ideas.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
