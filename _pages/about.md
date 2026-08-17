@@ -45,7 +45,7 @@ latest_posts:
 
 I work as a graduate data scientist in economic consulting (views my own), but started this blog to share my thoughts on various topics in machine learning research.
 
-During my MSc in Statistical Science at Oxford, I became interested in the question of *how an agent can improve its own model of the world*. I initially approached this through misspecification in Bayesian experimental design, but have recently gravitated toward model-based reinforcement learning and world models.
+During my MSc in Statistical Science at Oxford, I became interested in the question of *how an agent can improve its own model of the world*. I initially approached this through misspecification in Bayesian experimental design, but have increasingly gravitated toward model-based reinforcement learning and world models.
 
 My aim in these posts is to explain interesting concepts I come across in my research, prioritizing intuition over mathematical completeness. I hope this will be useful to others exploring related ideas.
 
