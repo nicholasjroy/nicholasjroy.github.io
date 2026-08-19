@@ -47,7 +47,7 @@ I work as a graduate data scientist in economic consulting (views my own). Prior
 
 My aim with this blog is to record and explain various concepts that I encounter in machine learning research, with more emphasis on intuition than on full rigour. I hope that it will be useful to others exploring related ideas.
 
-My research interests lie primarily in model-based reinforcement learning and world models. I am especially interested in *how an agent with an imperfect model of its environment should act in order to improve that model*; previously, I approached this via model misspecification in Bayesian experimental design. I also plan to discuss more practical aspects of world models, including architectures (e.g., blockwise diffusion) and training paradigms (e.g., teacher, causal, and self-forcing).
+My research interests lie primarily in model-based reinforcement learning and world models. I am especially interested in *how an agent with an imperfect model of its environment should act in order to improve that model*; previously, I approached this via model misspecification in Bayesian experimental design. I am also interested in more practical aspects of world models, including architectures (e.g., blockwise diffusion) and training paradigms (e.g., teacher- and self-forcing).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
