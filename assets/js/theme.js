@@ -289,6 +289,12 @@ let initTheme = () => {
     mode_toggle.addEventListener("click", function () {
       toggleThemeSetting();
     });
+
+    // Filter the system default theme from the search listing.
+    const ninja = document.querySelector("ninja-keys");
+    if (ninja && Array.isArray(ninja.data)) {
+      ninja.data = ninja.data.filter((item) => item.id !== "system-theme");
+    }
   });
 
   // Add event listener to the system theme preference change.
