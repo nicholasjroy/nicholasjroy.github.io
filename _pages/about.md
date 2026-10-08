@@ -40,6 +40,4 @@ latest_posts:
 
 I work as a graduate data scientist in economic consulting (views my own). Prior to this, I completed the MSc in Statistical Science at Oxford.
 
-Currently, I am interested in world models, especially how to scale pretraining on passive data and how useful the resulting representations are for control. Beyond this, I enjoy learning about neuroscience, AI safety, and statistical learning theory.
-
-My aim with this blog is to record and explain various concepts that I encounter in machine learning research, with more emphasis on intuition than rigour. I hope that it will be useful to others exploring related ideas.
+My aim with this blog is to explore concepts that I encounter in machine learning research. I am particularly interested in world models and how they can be used to train policies.
