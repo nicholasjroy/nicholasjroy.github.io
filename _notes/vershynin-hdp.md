@@ -2,9 +2,8 @@
 layout: post
 title: "High-Dimensional Probability (Vershynin)"
 date: 2026-07-04
-published: false
-# description: test
-tags: statistical-learning combinatorial-geometry
+published: true
+tags: statistical-learning-theory
 related_posts: false
 chart:
   echarts: true
@@ -12,11 +11,15 @@ chart:
 
 <style>
   .echarts {
-    height: 500px;
+    height: 400px;
+    width: 65%;
+    margin: 0 auto;
   }
 </style>
 
 Vershynin, R. (2026). _High-dimensional probability: An introduction with applications in data science_ (2nd ed.). Cambridge University Press. [https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf)
+
+## Appetizer: Using Probability to Cover a Set
 
 ```echarts
 {
@@ -25,7 +28,7 @@ Vershynin, R. (2026). _High-dimensional probability: An introduction with applic
       "type": "graph",
       "layout": "force",
       "roam": true,
-      "zoom": 0.30,
+      "zoom": 0.23,
       "scaleLimit": { "min": 0.2, "max": 3 },
       "draggable": true,
       "symbolSize": 16,
@@ -35,14 +38,16 @@ Vershynin, R. (2026). _High-dimensional probability: An introduction with applic
       "label": {
         "show": true,
         "position": "bottom",
+        "fontSize": 11,
         "width": 120,
         "overflow": "break"
       },
       "labelLayout": { "moveOverlap": "shiftY" },
       "edgeSymbol": ["none", "arrow"],
       "force": {
+        "initLayout": "circular",
         "repulsion": 5000,
-        "edgeLength": 275,
+        "edgeLength": 350,
         "gravity": 0.02
       },
       "emphasis": {
@@ -68,5 +73,3 @@ Vershynin, R. (2026). _High-dimensional probability: An introduction with applic
   ]
 }
 ```
-
-*TBC...*
